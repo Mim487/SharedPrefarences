@@ -116,7 +116,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_below="@id/l4"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -129,8 +129,9 @@
             android:layout_height="wrap_content"
             android:text="Save"
             android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:layout_margin="10dp"
             android:background="#9C46DA"
             android:id="@+id/save"
             android:textColor="@color/white"
@@ -142,8 +143,9 @@
             android:text="Next"
             android:textStyle="bold"
             android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:background="#9C46DA"
-            android:layout_margin="10dp"
             android:id="@+id/next"
             android:textColor="@color/white"
             android:textSize="20sp" />
@@ -155,16 +157,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_below="@id/l5"
+        android:layout_marginTop="10dp"
         android:id="@+id/l6"
-        android:weightSum="2"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/lgbg"
+            android:id="@+id/img"
             android:scaleType="fitXY"
             />
 
